@@ -1,0 +1,38 @@
+baseURL = 'https://ParkkerB.github.io/'
+languageCode = 'en-us'
+title = 'Parkker Burgan'
+theme = 'PaperMod'
+
+[params]
+description = 'Marketing & Communications | Technical Project Management | Digital Experience'
+author = 'Parkker Burgan'
+showReadingTime = false
+showShareButtons = false
+showPostNavLinks = false
+showBreadCrumbs = true
+showCodeCopyButtons = true
+
+[params.homeInfoParams]
+Title = "Parkker Burgan"
+Content = "Marketing and Communications professional with expertise in technical project management, web operations, and data-driven strategy."
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/parkkerb"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ParkkerB"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:pburgan0@gmail.com"
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 1
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+
